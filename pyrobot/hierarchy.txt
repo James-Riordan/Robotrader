@@ -1,0 +1,1 @@
+Top to bottom: run_robot.py -> robot.py -> indicator.py + stockframe feed into robot --> portfolio.py 

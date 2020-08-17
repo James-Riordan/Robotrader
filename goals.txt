@@ -1,0 +1,26 @@
+1. Stream real-time quotes
+
+2. Place enter and exit positions
+
+3 Manage account data(orders, positions, and activity)
+
+4. Calculate different technical factors
+
+
+
+Solution:
+
+Robot:
+Handles the interaction with robinhood api. Makes requests to api. Highest level of hierarchy
+
+Stock Frame:
+Stores all the price data. Used to add indicators. Handles appending, organizing and deleting of data.
+
+Portfolio:
+Represents a trading portfolio of multiple positions. Used to calculate common portfolio metrics and be used to answer genreral questions about our positions as we trade.
+
+Trade: 
+A trade which will represent an order to be placed. Functionality related to modifying different aspects of an order.
+
+Indicators:
+A technical indicator to be used during trading. Specifies the buy/sell criteria, and any methodology used for calculation.
